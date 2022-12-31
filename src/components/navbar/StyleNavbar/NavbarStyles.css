@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Go Medium";
+    src: url("//db.onlinewebfonts.com/t/047f4505be97c463bc637f1767d274d6.eot");
+    src: url("//db.onlinewebfonts.com/t/047f4505be97c463bc637f1767d274d6.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/047f4505be97c463bc637f1767d274d6.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/047f4505be97c463bc637f1767d274d6.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/047f4505be97c463bc637f1767d274d6.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/047f4505be97c463bc637f1767d274d6.svg#Go Medium")
+        format("svg");
+  }
+  
+  .navbarCSS {
+    font-family: "Go Medium";
+    align-items: center;
+    line-height: 22px;
+  }
+  
+  .linksMenu{
+    padding-top: .25rem;
+  }
+  
+  .activeCategory{
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 0.5em;
+  }
+  
+  .inactiveCategory{
+    color: rgba(0, 0, 0, 0.55);
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 0.5em;
+  }
+  
+  
+  .activeCategory:hover{
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .inactiveCategory:hover{
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+  }
